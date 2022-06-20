@@ -480,8 +480,8 @@ export default function Home() {
           <div className="minibox3">
             Q. I want a quick buck?
             <p className="minibox3-text">
-              A.There ain’t no easy money!! if there is its mostly scam, but you
-              can join hackathon and learn&earn! Check <a href="/icp">ICP hackathon</a> or <a href="https://ilearnx.vercel.app/">our hackathon course</a>!
+              A.Ain’t no easy money!! if there is it's mostly scam, but you
+              can join <a href="/icp">ICP hackathon</a> or <a href="https://ilearnx.vercel.app/">our hackathon course</a> to learn&earn!
             </p>
           </div>
           {/* Minibox 4 */}
