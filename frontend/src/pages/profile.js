@@ -32,8 +32,10 @@ export default function Profile(props) {
           alt={props.authData ?? ""}
           className="user-image"
         />
-        <p style={{ margin: "10px" }}>{props.authData ?? "Kaide"}</p>
-        <p>{props.authData ?? "data@gmail.com"}</p>
+        <p style={{ margin: "20px 10px 10px" }}>
+          <strong>{props.authData ?? "Kaide Raiden"}</strong>
+        </p>
+        <p>{props.authData ?? "kaide-raiden@assoic.com"}</p>
       </div>
       <div style={{ width: "80%", padding: "0 5%" }}>
         <div>
