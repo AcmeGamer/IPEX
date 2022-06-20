@@ -24,7 +24,7 @@ export default function About() {
             the new tech and learner’s initiatives by building online library,
             working on hackathon with you, and offering productive co-working opportunities and community.
           </p>
-          <br>
+          <br></br>
           <h2>Who is carrying Yaruhito Project?</h2>
            <h3>Ley</h3>
             <p>
