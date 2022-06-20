@@ -963,8 +963,31 @@ a {
   margin-left: 6%;
   padding-top: 5rem;
 }
+.user-profile div:nth-child(1) {
+  font-size: 20px;
+}
 
 .user-image {
-  border-radius: 5pc;
+  border-radius: 105pc;
   width: 200px;
+  height: 200px;
+}
+
+/* Course Data */
+.course-data {
+  border: 1px solid white;
+  margin: 20px 0 50px;
+}
+.course-image {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.progress-bar {
+  margin: 0 20px;
+  width: 33vw;
+  height: 10px;
+  background-color: green;
+  display: block;
+  border-radius: 10px;
 }
