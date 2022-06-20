@@ -957,3 +957,14 @@ a {
 .solidity-warning {
   margin: 25%;
 }
+
+/* Profile JS */
+.user-profile {
+  margin-left: 6%;
+  padding-top: 5rem;
+}
+
+.user-image {
+  border-radius: 5pc;
+  width: 200px;
+}

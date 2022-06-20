@@ -1,19 +1,19 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
-import React from "react"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
 
 // Components
-import Header, { HeaderV2 } from "./components/header-footer/header"
-import Footer, { FooterV2 } from "./components/header-footer/footer"
+import Header, { HeaderV2 } from "./components/header-footer/header";
+import Footer, { FooterV2 } from "./components/header-footer/footer";
 
 // Pages
-import Home from "./pages/index"
-import About from "./pages/about"
-import HTMLCourse from "./pages/html-course"
-import ReactCourse from "./pages/react-course"
-import ICP from "./pages/icp"
-import Solidity from "./pages/solidity"
-import Profile from "./pages/profile"
-import Track from "./pages/track"
+import Home from "./pages/index";
+import About from "./pages/about";
+import HTMLCourse from "./pages/html-course";
+import ReactCourse from "./pages/react-course";
+import ICP from "./pages/icp";
+import Solidity from "./pages/solidity";
+import Profile from "./pages/profile";
+import Track from "./pages/track";
 
 export default function App() {
   return (
@@ -38,5 +38,5 @@ export default function App() {
       {/* <Footer /> */}
       <FooterV2 />
     </>
-  )
+  );
 }

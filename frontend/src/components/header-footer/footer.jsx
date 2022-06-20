@@ -1,4 +1,4 @@
-import "./footer.css"
+import "./footer.css";
 
 export default function Footer() {
   return (
@@ -23,11 +23,11 @@ export default function Footer() {
       </a>
       <p>© Yaruhito Project.</p>
     </footer>
-  )
+  );
 }
 
 function Link(props) {
-  return <a href={props.href}>{props.name}</a>
+  return <a href={props.href}>{props.name}</a>;
 }
 
 export function FooterV2() {
@@ -64,8 +64,8 @@ export function FooterV2() {
         </div>
       </div>
       <div className="footer-ending full-width">
-        <p>©Copyright {new Date().getFullYear()} © Yaruhito Project.</p>
+        <p>©Copyright {new Date().getFullYear()} Yaruhito Project.</p>
       </div>
     </footer>
-  )
+  );
 }
