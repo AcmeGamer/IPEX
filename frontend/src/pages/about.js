@@ -15,16 +15,23 @@ export default function About() {
         style={{ marginLeft: "6%", marginRight: "6%", paddingTop: "5rem" }}
       >
         <section>
-          <h1>Web3 Journey</h1>
+          <h1>iLearnX Beyond Web3</h1>
           <h1>by Yaruhito Project</h1>
           <p>
             We made a Web3 Journey and roadmaps in order to have a platform
             where people can learn about web3 for free and become a player in
             building healthy web3 economy & your career future. We will support
             the new tech and learner’s initiatives by building online library,
-            working on hackathon with you, and offering gotta-do function for
-            all your todo list.
+            working on hackathon with you, and offering productive co-working opportunities and community.
           </p>
+          <br>
+          <h2>Who is carrying Yaruhito Project?</h2>
+           <h3>Ley</h3>
+            <p>
+            Yaruhito means “Doer” in Japanese. Not only programming or Web3, or any new technology, learning path is lonely and can be mandane. I think motivation is highly overated, and I myself needed a platform that gets you do things.
+            </p>
+            <h3>Saheed</h3>
+            <p>As a blockchain developer, I wanted to create a place where people can focus on learning of the technology and interact.</p>
         </section>
       </div>
     </>

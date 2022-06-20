@@ -88,7 +88,7 @@ export default function Home() {
         <div className="first-texts">
           <h1 className="sub-title">Learn Web3 & Beyond.</h1>
           <p className="project-description">
-            Welcome to Web3Journey, where you can learn from the basic of
+            Welcome to iLearnX Beyond Web3, where you can learn from the basic of
             internet to how-to-Web3 development. We curated free learning
             materials (HTML, CSS, JavaScript, React etc) & will walk you through
             till the end of your goal.{" "}
@@ -468,56 +468,57 @@ export default function Home() {
         <div className="mini-boxes">
           {/* Minibox 1 */}
           <div className="minibox1">
-            Can I just learn normal programming?
-            <p className="minibox1-text"></p>
+            <p className="minibox1-text">Q. Can I just learn normal programming?</p>           
+            <p className="minibox1-text">A. Absolutely! What you learn is all your choice!</p>
+           
           </div>
           {/* Minibox 2 */}
           <div className="minibox2">
-            <p className="minibox2-text"> Start from Here!</p>
+            <p className="minibox2-text"> Q. I am a beginner. A.Start from <a href="/track">Here!</a></p>
           </div>
           {/* Minibox 3 */}
           <div className="minibox3">
-            Want a quick buck
+            Q. I want a quick buck?
             <p className="minibox3-text">
-              There ain’t no easy money!! if there is its mostly scam, but you
-              can join hackathon and learn&earn! Check here
+              A.There ain’t no easy money!! if there is its mostly scam, but you
+              can join hackathon and learn&earn! Check <a href="/icp">ICP hackathon</a> or <a href="https://ilearnx.vercel.app/">our hackathon course</a>!
             </p>
           </div>
           {/* Minibox 4 */}
           <div className="minibox4">
-            I don’t want to study alone.
+            Q.I don’t want to study alone.
             <p className="minibox4-text">
-              Use our Discord to do focus session with friends!
+              A.Use our Discord to do focus session with friends!
             </p>
           </div>
           {/* Minibox 5 */}
           <div className="minibox5">
-            I don’t want to study alone.
+            Q. Where can I get a job?
             <p className="minibox5-text">
-              Use our Discord to do focus session with friends!
+             A. Use our up-coming marketplace to list your progress and sell by hour/task!
             </p>
           </div>
           {/* Minibox 6 */}
           <div className="minibox6">
-            I don’t want to study alone.
+           Q. How do I make a session? 
             <p className="minibox6-text">
-              Use our Discord to do focus session with friends!
+          A. Join Discord 24h focus session or book in-person session.          
             </p>
           </div>
           {/* Minibox 7 */}
           <div className="minibox7">
-            Web3 Roadmap<p className="minibox7-text"></p>
+            Check <a href="/track">Web3 Roadmap</a><p className="minibox7-text"></p>
           </div>
           {/* Minibox 8 */}
           <div className="minibox8">
             Hackathon of this season
-            <p className="minibox8-text">Absolutely!</p>
+            <p className="minibox8-text"><a href="/icp">ICP</a></p>
           </div>
           {/* Minibox 9 */}
           <div className="minibox9">
             Wanna Join Hackathon?
             <p className="minibox9-text">
-              Form a team here!(Beginner friendly)
+              Form a team on discord or <a href="https://ilearnx.vercel.app/">sign-up!</a>(Beginner friendly)
             </p>
           </div>
         </div>
