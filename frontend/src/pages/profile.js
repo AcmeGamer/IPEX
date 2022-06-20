@@ -51,12 +51,38 @@ export default function Profile(props) {
             <img src="images/certificates/react.jpg" alt="React" />
           </div>
         </div>
-        <div>
+        <div className="partners">
           <h1>Your Partners</h1>
-          <div></div>
-        </div>
-        <div>
-          <h1>Marketplace</h1>
+          <div>
+            <div>
+              <img
+                src="https://i1.sndcdn.com/avatars-0QCRofC3yRV0mkpa-6XQLMA-t500x500.jpg"
+                alt="Partner 1"
+              />
+              <img
+                src="https://hairstylecamp.com/wp-content/uploads/anime-girl-with-brown-hair.jpg"
+                alt="Partner 2"
+              />
+              <img
+                src="https://png.pngtree.com/png-clipart/20210308/original/pngtree-anime-girl-in-white-t-shirt-png-image_5782046.jpg"
+                alt="Partner 3"
+              />
+            </div>
+            <div>
+              <img
+                src="https://yt3.ggpht.com/ytc/AKedOLR_OMWJr_DWdNjGufy1jcZqFaU8f_Mkh1aD-b1q=s900-c-k-c0x00ffffff-no-rj"
+                alt="Partner 1"
+              />
+              <img
+                src="https://i1.sndcdn.com/avatars-OKOYYTFMIYIB59Aq-aX3xhw-t500x500.jpg"
+                alt="Partner 2"
+              />
+              <img
+                src="http://pm1.narvii.com/6390/2ea28959e78c81b41b8bde5059baf1e5ee5b7bfe_00.jpg"
+                alt="Partner 3"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1003,3 +1003,17 @@ a {
 .certificates > div > img:last-child {
   margin-bottom: 50px;
 }
+
+.partners > div {
+  margin: 20px 0 50px;
+  border: 1px solid white;
+  width: max-content;
+}
+
+.partners img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
