@@ -2,8 +2,11 @@ function BoxArea(props) {
   return (
     <div className="course-data row hr-center">
       <img
-        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seoclerk.com%2Fpics%2F500304-1KuyMq1482510124.jpg&f=1&nofb=1"
-        alt="HTML"
+        src={
+          props.image ??
+          "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seoclerk.com%2Fpics%2F500304-1KuyMq1482510124.jpg&f=1&nofb=1"
+        }
+        alt={props.name ?? "HTML"}
         className="course-image"
       />
 
@@ -36,12 +39,21 @@ export default function Profile(props) {
         <div>
           <h1>Your Progress</h1>
           <BoxArea />
+          <BoxArea
+            name="React"
+            image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpmcaonline.org%2Fwp-content%2Fuploads%2F2020%2F07%2Freact-js-2.jpg&f=1&nofb=1"
+          />
         </div>
-        <div>
+        <div className="certificates">
           <h1>Certificates</h1>
+          <div>
+            <img src="images/certificates/html.jpg" alt="HTML/CSS" />
+            <img src="images/certificates/react.jpg" alt="React" />
+          </div>
         </div>
         <div>
           <h1>Your Partners</h1>
+          <div></div>
         </div>
         <div>
           <h1>Marketplace</h1>

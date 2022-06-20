@@ -976,10 +976,14 @@ a {
 /* Course Data */
 .course-data {
   border: 1px solid white;
-  margin: 20px 0 50px;
+  margin: 20px 0;
+}
+.course-data:last-child {
+  margin-bottom: 50px;
 }
 .course-image {
   width: 200px;
+  height: 110px;
   margin-right: 20px;
 }
 
@@ -990,4 +994,12 @@ a {
   background-color: green;
   display: block;
   border-radius: 10px;
+}
+
+.certificates > div > img {
+  width: 500px;
+  margin: 30px 0 0;
+}
+.certificates > div > img:last-child {
+  margin-bottom: 50px;
 }
