@@ -22,7 +22,7 @@ function BoxArea(props) {
 
 export default function Profile(props) {
   return (
-    <div className="min-screen-height row user-profile">
+    <div className="min-screen-height row user-profile ">
       <div style={{ width: "20%" }} className="column hr-center">
         <img
           src={
@@ -36,6 +36,14 @@ export default function Profile(props) {
           <strong>{props.authData ?? "Kaide Raiden"}</strong>
         </p>
         <p>{props.authData ?? "kaide-raiden@assoic.com"}</p>
+        <p
+          style={{
+            marginTop: "20px",
+          }}
+        >
+          {props.authData ??
+            "Honesty is just a part of a being's world, just like how the moon is a part of the night."}
+        </p>
       </div>
       <div style={{ width: "80%", padding: "0 5%" }}>
         <div>
