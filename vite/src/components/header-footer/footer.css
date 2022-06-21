@@ -1,0 +1,160 @@
+.full-width {
+  width: -webkit-fill-available;
+}
+.flex {
+  display: flex;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.hr-center {
+  align-items: center;
+}
+.hr-left {
+  align-items: flex-start;
+}
+.hr-right {
+  align-items: flex-end;
+}
+.vr-top {
+  align-items: flex-start;
+}
+.vr-center {
+  justify-content: center;
+}
+.vr-end {
+  justify-content: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.min-screen-height {
+  min-height: 100vh;
+}
+
+/* 
+  ========
+  @Styling
+  ========
+  */
+.no-bullets {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Footer */
+.footer-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #2a2a2a;
+  padding: 30px 0 40px;
+  width: -webkit-fill-available;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 20%;
+}
+
+.footer-col > p {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.footer-row > a > i {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-right: 20px;
+}
+.footer-ending {
+  background-color: #000;
+}
+.footer-ending > p {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-col > a,
+.footer-ending a {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 2.5;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.74);
+  transition: 0.3s;
+}
+.footer-col > a:hover,
+.footer-ending a:hover,
+.footer-row a:hover {
+  color: #fff;
+}
+.footer-row a {
+  font-size: 24px;
+  padding-right: 20px;
+  color: #c9c9c9;
+  transition: 0.3s;
+}
+.site-info {
+  width: 30%;
+}
+.site-info > div {
+  color: #cdcccc;
+  line-height: 25px;
+  /* font-family: sans-serif; */
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.menu-data {
+  width: 70%;
+}
+
+@media (max-width: 725px) {
+  .desktop-display {
+    display: none;
+  }
+  .footer-data {
+    flex-direction: column;
+    padding: 30px 30px 40px;
+  }
+  .footer-col {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 726px) {
+  .mobile-display {
+    display: none;
+  }
+}
