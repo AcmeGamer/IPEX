@@ -18,5 +18,5 @@ To start the React Frontend, run the following command:
 ```bash
 cd frontend
 npm install
-npm start
+npm run start
 ```
