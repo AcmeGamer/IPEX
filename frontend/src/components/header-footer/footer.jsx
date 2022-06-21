@@ -45,9 +45,9 @@ export function FooterV2() {
         </div>
         <div className="footer-col">
           <p>Navigation</p>
-          <Link name="Home" href="/#courses" />
+          <Link name="Home" href="/" />
           <Link name="About" href="/about" />
-          <Link name="Courses" href="/contact" />
+          <Link name="Courses" href="/#courses" />
         </div>
         <div className="footer-col">
           <p>Courses</p>

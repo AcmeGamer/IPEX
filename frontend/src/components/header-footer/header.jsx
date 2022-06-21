@@ -51,7 +51,7 @@ export default function Header() {
         </div>
       </nav>
     </section>
-  )
+  );
 }
 
 function Link(props) {
@@ -62,7 +62,7 @@ function Link(props) {
       </a>
       {props.children}
     </li>
-  )
+  );
 }
 
 export function HeaderV2() {
@@ -111,7 +111,7 @@ export function HeaderV2() {
             <Link href="/" name="Home" />
             <Link href="/about" name="About" />
 
-            <Link href="/courses" name="Courses">
+            <Link href="/#courses" name="Courses">
               <ul>
                 <Link href="/html-course" name="HTML Course" />
                 <Link href="/react-course" name="React Course" />
@@ -130,5 +130,5 @@ export function HeaderV2() {
         </div>
       </nav>
     </section>
-  )
+  );
 }
