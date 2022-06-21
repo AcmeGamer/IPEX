@@ -16,7 +16,7 @@ npm run dev
 To start the React Frontend, run the following command:
 
 ```bash
-cd frontend
+cd vite
 npm install
 npm run start
 ```
